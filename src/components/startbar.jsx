@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./startbar.module.css";
+import classes from "../style/startbar.module.css";
 import { AppBar, Toolbar, Typography, IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 

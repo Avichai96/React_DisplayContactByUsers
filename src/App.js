@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 
-import StartBar from './startbar'
-import UserAndContacts from './userandcontacts'
+import StartBar from './components/startbar'
+import UserAndContacts from './components/userandcontacts'
 
 function App() {
 

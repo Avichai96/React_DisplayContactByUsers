@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Users from "./users";
 import ContactsList from "./contactslist";
-import classes from "./userAndContacts.module.css";
-import { getAllUsers } from "./services/request/users";
-import { getAllContacts } from "./services/request/contacts";
+import classes from "../style/userAndContacts.module.css";
+import { getAllUsers } from "../services/request/users";
+import { getAllContacts } from "../services/request/contacts";
 
 function UserAndContacts(props) {
   const [userList, setUserList] = useState([]); //users
